@@ -1,7 +1,7 @@
-# value = input("Enter any integer for 1st solution: ")
-# value = int(value)
-# new_value_1 = value / 2 if value < 100 else -value
-# print(f"solution_1: {new_value_1}")
+value = input("Enter any integer for 1st solution: ")
+value = int(value)
+new_value_1 = value / 2 if value < 100 else -value
+print(f"solution_1: {new_value_1}")
 
 #####################################################
 
