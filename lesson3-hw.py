@@ -56,7 +56,7 @@ else:
 my_str = input("Enter any string for 8th solution: ")
 my_str = str(my_str)
 for symbol in my_str:
-    if symbol in 'eyuioa' or symbol in 'bcdfghjklmnpqrstvwxyz' or symbol in '1234567890':
+    if symbol.isalpha() or symbol.isdigit():
         print(f"solution_8: {symbol}")
 
 #####################################################
@@ -65,7 +65,7 @@ my_str = input("Enter any string for 9th solution: ")
 my_str = str(my_str)
 my_str_1 = my_str.lower()
 for symbol in my_str_1:
-    if symbol not in 'eyuioa' and symbol not in 'bcdfghjklmnpqrstvwxyz' and symbol not in '1234567890':
+    if not symbol.isalpha() or not symbol.isdigit():
         print(f"solution_9: {symbol}")
 
 #####################################################
@@ -74,7 +74,8 @@ my_str = input("Enter any string for 10th solution: ")
 my_str = str(my_str)
 my_str_1 = my_str.lower()
 for symbol in my_str_1:
-    if symbol not in 'eyuioa' and symbol not in 'bcdfghjklmnpqrstvwxyz' and symbol not in '1234567890' and symbol != ' ':
+    if not symbol.isalpha() and not symbol.isdigit() and symbol != ' ':
         print(f"solution_10: {symbol}")
 
 #####################################################
+
