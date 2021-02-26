@@ -1,5 +1,3 @@
-#####################################################
-
 my_str = input("Enter any string for 8th solution: ")
 my_str = str(my_str)
 for symbol in my_str:
@@ -23,5 +21,3 @@ my_str_1 = my_str.lower()
 for symbol in my_str_1:
     if not symbol.isalpha() and not symbol.isdigit() and symbol != ' ':
         print(f"solution_10: {symbol}")
-
-#####################################################
