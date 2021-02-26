@@ -1,4 +1,4 @@
-my_str = input("Enter any string for 8th solution: ")
+my_str = "String for 8th solution is PK!(#KM) Mm2fmd e2m _Nnd2n9df9udscnon 898 *(yt( "
 my_str = str(my_str)
 for symbol in my_str:
     if symbol.isalpha() or symbol.isdigit():
@@ -6,7 +6,7 @@ for symbol in my_str:
 
 #####################################################
 
-my_str = input("Enter any string for 9th solution: ")
+my_str = input("String for 9th solution: ")
 my_str = str(my_str)
 my_str_1 = my_str.lower()
 for symbol in my_str_1:
@@ -15,7 +15,7 @@ for symbol in my_str_1:
 
 #####################################################
 
-my_str = input("Enter any string for 10th solution: ")
+my_str = "String for 8th solution is PK!(#KM) Mm2fmd e2m _Nnd2n9df9udscnon 898 *(yt( "
 my_str = str(my_str)
 my_str_1 = my_str.lower()
 for symbol in my_str_1:
